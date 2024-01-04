@@ -16,7 +16,7 @@
 - **Features:**
     - These are the things which I see and become inspired by. (Hyperplexed, DevEd, Kevin Powell)
 
-#**Design document**
+# **Design document**
 
 ## Database
 

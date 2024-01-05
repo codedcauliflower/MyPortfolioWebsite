@@ -1,11 +1,40 @@
 body{
-    background-color: #333;
+    background-color: #0E0E0E;
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    position: relative;
+
     color: white;
     text-align: center;
-    padding: 10px 0;
+}
+
+#logo-container{
+    padding: 30px 0 0 80px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+#nav-logo{
+    height: 200px;
+    width: auto;
+    opacity: 0.6;
+    
+    border: none;
+    background-color: #9178ff;
+
+    transition: box-shadow 0.3s ease;
+    border-radius: 50%;
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 nav ul{
@@ -17,11 +46,11 @@ nav ul{
 }
 
 nav ul li{
-    margin: 60px 70px;
+    margin: 130px 70px;
 }
 
 nav ul li a{
-    color: rgb(232, 232, 232);
+    color: #9178ff;
     text-decoration: none;
     font-size: 1.5em;
     opacity: 0.5;
@@ -29,6 +58,10 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: white;
+    color: #9178ff;
     opacity: 1;
+}
+
+#nav-logo:hover{
+    box-shadow: 0 0 30px 2px #9178ff;
 }

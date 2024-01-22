@@ -12,6 +12,14 @@ body{
     color: white;
 }
 
+a{
+    text-decoration: none;
+}
+
+
+
+
+
 #home{
     height: 100vh;
 }
@@ -302,52 +310,213 @@ nav ul li a:hover{
 
 
 
-
-#projects{
-    height: 100vh;
-}
-
-#projects h1{
+.card-container h1{
     color: #9178ff;
     font-size: 10em;
     text-align: center;
     margin: 0;
 }
 
-#projects-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    justify-items: center;
-    align-items: center;
-    padding: 20px;
+.card-list{
+    display: flex;
+    height: 100vh;
+    padding-left: 10em;
+    overflow-x: scroll;
+
+    padding-top: 5em;
 }
 
-#projects-container > div{
+.card-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+.card-list::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#201c29,#201c29 1px,#17141d 0,#17141d);
+}
+
+.card{
+    display: flex;
     position: relative;
-    height: 300px;
-    width: 350px;
-    border: 2px solid #d4cec4;
-    color: #d4cec4;
-    text-align: center;
-    margin-top: 20px;
+    flex-direction: column;
+    flex: 0 1 300px;
+    
+    height: 350px;
+    width: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+
+    border-radius: 16px;
+    background: #17141d;
+    box-shadow: -1rem 0 3rem #000;
+    transition: .2s;
 }
 
-#projects-container > div > div{
+.card:hover {
+    transform: translateY(-1rem);
+}
+
+
+.card:hover~.card {
+    transform: translateX(130px);
+}
+
+
+.card:not(:first-child) {
+    margin-left: -130px;
+}
+
+.card-author {
+    position: relative;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 3rem 0 0;
+
+    font-size: .7em;
+}
+
+.author-avatar img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin: 16px 10px;
+}
+
+.author-name{
+    font-size: 1.1em;
+}
+
+.author-name-prefix{
+    font-size: 1.7em;
+}
+
+.half-circle {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 90px;
-    width: 100%;
-    color: white;
-    background-color: #d4cec4;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 60px;
+    height: 48px;
+    fill: none;
+    stroke: #9178ff;
+    stroke-width: 8;
+    stroke-linecap: round;
 }
 
-#projects-container > div > div > span{
-    font-size: large;
-    color: #0E0E0E;
+.card-header {
+    margin-bottom: auto;
+}
+
+.card-header-text{
+    color: white;
+}
+
+.card-header p {
+    font-size: 14px;
+    margin: 0 0 1rem;
+    color: #7a7a8c;
+}
+
+.card-header h2 {
+    font-size: 20px;
+    margin: .25rem 0 auto;
+    cursor: pointer;
+}
+
+.card-header h2:hover {
+    background: #9178ff;
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tags {
+    margin: 1rem 0 2rem;
+    padding: .5rem 0 1rem;
+    line-height: 2;
+    margin-bottom: 0;
+    cursor: grab;
+}
+
+.tags span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: .5rem;
+    color: #7a7a8c;
+    text-transform: uppercase;
+    font-size: .66rem;
+    border: 3px solid #28242f;
+    border-radius: 2rem;
+    padding: .2rem .85rem .25rem;
+    position: relative;
+}
+
+.tags span:hover {
+    background: #9178ff;
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-box-decoration-break: clone;
+    background-clip: text;
+    border-color: white;
+    cursor:grab;
+}
+
+
+
+
+
+
+
+#interests{
+    height: 100vh;
+}
+
+#interests h1{
+    color: #9178ff;
+    font-size: 10em;
+    text-align: center;
+    margin: 0;
+}
+#interests-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.interest{
+    display: flex;
+    align-items: center;
+}
+
+.interest > span{
+    font-size: xx-large;
+
+    margin-right: 50px;
+}
+
+.examples{
+    display: flex;
+
+    margin-left: 200px;
+}
+
+.examples > div{
+    height: 450px;
+    width: 300px;
+    
+    border: 2px solid #d4cec4;
+
+    margin: 10px;
 }

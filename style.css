@@ -636,8 +636,8 @@ nav ul li a:hover{
     background-image: linear-gradient(
         to bottom,
         transparent 46%,
-        rgba(12, 13, 19, 0.5) 68%,
-        rgba(12, 13, 19) 97%
+        rgba(12, 13, 19, 0.5) 70%,
+        rgba(12, 13, 19) 80%
   );
 }
 
@@ -657,19 +657,26 @@ nav ul li a:hover{
     width:  100%;
     transition: transform 0.5s;
 
-    padding-bottom: .6em;
+    padding-bottom: 1.8em;
 }
 
-#tlou{
-    padding-bottom: 2em;
+.quiet-place-title{
+    width: 188px;
+    height: auto;
 }
 
-.dredge-title{
-    padding-bottom: 1.4em;
+.alien-covenant-title{
+    width: 180px;
+    height: auto;
+}
+
+.silent-hill-title{
+    width: 180px;
+    height: auto;
 }
 
 .interests-card:hover .title{
-    transform:  translate3d(0%, -50px, 100px);
+    transform:  translate3d(0%, -40px, 100px);
 }
 
 .character{
@@ -681,12 +688,37 @@ nav ul li a:hover{
 }
 
 .dredge-character{
-    padding-bottom: 3em;
+    padding-bottom: 5em;
+}
+
+.dont-breathe-character{
+    width: 210px;
+    height: auto;
 }
 
 .interests-card:hover .character{
     opacity: 1;
-    transform: translate3d(0%, -30%, 100px);
+    transform: translate3d(0%, -20%, 100px);
+}
+
+.interests-card:hover .quiet-place-character{
+    opacity: 1;
+    transform: translate3d(-2%, -7%, 100px);
+}
+
+.interests-card:hover .dont-breathe-character{
+    opacity: 1;
+    transform: translate3d(-2%, -10%, 100px);
+}
+
+.interests-card:hover .alien-covenant-character{
+    opacity: 1;
+    transform: translate3d(0%, -10%, 100px);
+}
+
+.interests-card:hover .silent-hill-character{
+    opacity: 1;
+    transform: translate3d(0%, -9%, 100px);
 }
 
 .examples > div{

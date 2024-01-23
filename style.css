@@ -156,6 +156,10 @@ nav ul li a:hover{
     margin: 0;
 }
 
+#about h6{
+    color: #9178ff;
+}
+
 #about-profile-details{
     display: flex;
     flex-direction: column;
@@ -165,12 +169,26 @@ nav ul li a:hover{
 }
 
 #about-profile-picture{
+    background: url("/images/IMG_1081-2.jpg");
+    background-size: 500px;
+    background-position: -110px 1px;
+
     height: 250px;
     width: 250px;
     border: 4px solid #d4cec4;
     border-radius: 50%;
     padding: 0;
     margin: 0;
+
+    transition: background-size .7s ease-in-out, background-position .7s ease-in-out;
+}
+
+#about-profile-picture:hover{
+    background: url("/images/IMG_1081-2.jpg");
+    background-size: 1400px;
+    background-position: -523px -10px;
+
+    transition: background-size .6s ease-in-out, background-position .6s ease-in-out;
 }
 
 #about-name{
@@ -199,10 +217,16 @@ nav ul li a:hover{
 }
 
 .about-contact{
+    color: #9178ff;
+
     padding-right: 100px;
     text-align: right;
     font-size: 1em;
     margin: 0;
+}
+
+.link{
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1920px){
@@ -251,6 +275,46 @@ nav ul li a:hover{
     margin: 0;
 }
 
+.education-div{
+    border: 2px solid #d4cec4;
+    margin: 10px;
+    padding: 12px;
+}
+
+.education-degree{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.degree-image{
+    position: absolute;
+    width: 220px;
+    height: auto;
+
+    left: 310px;
+    top: 2630px;
+}
+
+.briefcase-image{
+    position: absolute;
+    width: 180px;
+    height: auto;
+
+    left: 325px;
+    top: 3010px;
+}
+
+.degree-image, .briefcase-image{
+    display: block;
+    animation: float 2s infinite;
+}
+
+@keyframes float{
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-20px);}
+    100% {transform: translateY(0);}
+}
+
 #career-left{
     display: flex;
     flex-direction: column;
@@ -260,8 +324,8 @@ nav ul li a:hover{
 }
 
 #career-left > div{
-    width: 60%;
-    margin-bottom: 50px;
+    width: 70%;
+    margin-bottom: 200px;
     border: 2px solid #d4cec4;
     text-align: center;
 }

@@ -417,8 +417,8 @@ nav ul li a:hover{
     padding: 1.5em 1.5em 0.5em 1.5em;
 
     border-radius: 16px;
-    background: #17141d;
-    box-shadow: -1rem 0 3rem #000;
+    background: #0E0E0E;
+    box-shadow: -1rem 0 2rem #000;
     transition: .2s;
 }
 
@@ -470,7 +470,7 @@ nav ul li a:hover{
     width: 60px;
     height: 48px;
     fill: none;
-    stroke: #9178ff;
+    stroke: #5030e0;
     stroke-width: 8;
     stroke-linecap: round;
 }
@@ -508,7 +508,7 @@ nav ul li a:hover{
     padding: .5rem 0 1rem;
     line-height: 2;
     margin-bottom: 0;
-    cursor: grab;
+    cursor: default;
 }
 
 .tags span {
@@ -525,14 +525,14 @@ nav ul li a:hover{
 }
 
 .tags span:hover {
-    background: #9178ff;
+    background: #d4cec4;
     text-shadow: none;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-box-decoration-break: clone;
     background-clip: text;
-    border-color: white;
-    cursor:grab;
+    border-color: #9178ff;
+    cursor: default;
 }
 
 

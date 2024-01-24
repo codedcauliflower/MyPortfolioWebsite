@@ -1,0 +1,1005 @@
+@media (max-width: 1536px) {
+
+    #logo-container{
+        margin-top: 30px;
+    }
+    
+    #nav-logo{
+        height: 120px;
+    }
+    
+    nav ul li{
+        margin: 100px 35px;
+    }
+    
+    #line-icon{
+        height: 30px;
+    }
+    
+    #mouse-icon{
+        height: 30px;
+    }
+
+
+
+
+    
+    
+    #about-container{
+        height: 40vh;
+        width: 50%;
+        border: 2px solid #d4cec4;
+        color: #d4cec4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #about h1{
+        color: #9178ff;
+        font-size: 10em;
+        text-align: center;
+        font-family: 'Prompt';
+        margin: 0;
+    }
+    
+    #about h6{
+        color: #9178ff;
+    }
+    
+    #about-profile-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 0;
+        margin-left: 85px;
+    }
+    
+    #about-profile-picture{
+        width: 150px;
+        height: 150px;
+
+        background-position: -158px 1px;
+    }
+    
+    #about-profile-picture:hover{
+        background-size: 1200px;
+        background-position: -479px -30px;
+    }
+    
+    #about-name{
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-size: 1em;
+    }
+    
+    #about-job-title{
+        font-size: .75em;
+        margin: 0;
+    }
+    
+    #about-info{
+        margin: 0 0 10px 0;
+    }
+    
+    #about-paragraph{
+        padding: 0 40px 0 40px ;
+        font-size: .67rem;
+    }
+    
+    .about-contact{
+        color: #9178ff;
+    
+        padding-right: 40px;
+        text-align: right;
+        font-size: 0.7em;
+        margin: 0;
+    }
+
+
+
+
+
+    
+    
+    #career{
+        margin-bottom: 200px;
+    }
+    
+    .education-degree{
+        font-size: 12px;
+    }
+    
+    .degree-image{
+        width: 140px;
+        height: auto;
+    }
+    
+    .briefcase-image{
+        width: 120px;
+        height: auto;
+    }
+    
+    #career-left{
+        width: 700px;
+    
+        padding: 0 100px 0 120px;
+    }
+    
+    #career-left > div > span{
+        font-size: x-large;
+    }
+
+    #career-work p{
+        font-size: small;
+    }
+    
+    #career-expertise{
+        width: 80%;
+        height: 640px;
+        border: 2px solid #d4cec4;
+        text-align: center;
+        
+    }
+    
+    #career-right > div > span{
+        font-size: x-large;
+    }
+    
+    #skills-container{
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .skills{
+        width: 40%;
+        text-align: left;
+        padding-left: 50px;
+
+        font-size: small;
+    }
+    
+    .divider{
+        border-left: 2px solid #9178ff;
+        height: 540px;
+    }
+}
+
+@media (max-width: 1280px){
+
+    nav ul li a{
+        font-size: 1em;
+    }
+
+
+
+
+    
+    
+    #about-container{
+        height: 50vh;
+        width: 60%;
+    }
+    
+    #about-profile-details{
+        margin-left: 50px;
+    }
+    
+    #about-paragraph{
+        padding: 0 50px 10px 50px ;
+    }
+    
+    .about-contact{
+        padding-right: 50px;
+    }
+
+
+
+
+
+    
+    
+    #career{
+        margin-bottom: 200px;
+    }
+    
+    .education-degree{
+        font-size: 12px;
+    }
+    
+    .degree-image{
+        width: 140px;
+        height: auto;
+    }
+    
+    .briefcase-image{
+        width: 120px;
+        height: auto;
+    }
+    
+    #career-left{
+        width: 600px;
+    
+        padding: 0 100px 0 120px;
+    }
+    
+    #career-left > div > span{
+        font-size: x-large;
+    }
+
+    #career-work p{
+        font-size: small;
+    }
+    
+    #career-expertise{
+        width: 80%;
+        height: 640px;
+        border: 2px solid #d4cec4;
+        text-align: center;
+        
+    }
+    
+    #career-right > div > span{
+        font-size: x-large;
+    }
+    
+    #skills-container{
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .skills{
+        width: 40%;
+        text-align: left;
+        padding-left: 50px;
+
+        font-size: small;
+    }
+    
+    .divider{
+        border-left: 2px solid #9178ff;
+        height: 540px;
+    }
+
+
+
+
+
+    
+    
+    .examples{
+        display: flex;
+    
+        margin-left: 0px;
+    }
+}
+
+
+@media (max-width: 1280px){
+
+    #nav-logo{
+        display: none;
+    }
+
+
+
+
+    
+    
+    #about-container{
+        height: 50vh;
+        width: 80%;
+    }
+
+
+
+
+
+    
+    
+    #career{
+        margin-bottom: 200px;
+    }
+    
+    .education-degree{
+        font-size: 12px;
+    }
+    
+    .degree-image{
+        width: 140px;
+        height: auto;
+    }
+    
+    .briefcase-image{
+        width: 120px;
+        height: auto;
+    }
+    
+    #career-left{
+        width: 550px;
+    
+        padding: 0 80px 0 45px;
+    }
+    
+    #career-left > div > span{
+        font-size: x-large;
+    }
+
+    #career-work p{
+        font-size: small;
+    }
+    
+    #career-expertise{
+        width: 90%;
+        height: 640px;
+        border: 2px solid #d4cec4;
+        text-align: center;
+        
+    }
+    
+    #career-right > div > span{
+        font-size: x-large;
+    }
+    
+    #skills-container{
+        padding-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .skills{
+        width: 45%;
+        text-align: left;
+        padding: 0 30px 0 30px;
+
+        font-size: small;
+    }
+    
+    .divider{
+        border-left: 2px solid #9178ff;
+        height: 540px;
+    }
+
+
+
+
+
+
+
+
+
+    
+    
+    .examples{
+        display: flex;
+    
+        margin-left: 0px;
+    }
+}
+
+
+
+@media (max-width: 1024px){
+    #logo-container{
+        margin-top: 30px;
+    }
+    
+    #nav-logo{
+        height: 120px;
+    }
+    
+    nav ul li{
+        margin: 100px 35px;
+    }
+    
+    #line-icon{
+        height: 30px;
+    }
+    
+    #mouse-icon{
+        height: 30px;
+    }
+
+
+
+
+    
+    
+    #about-container{
+        height: 40vh;
+        width: 80%;
+        border: 2px solid #d4cec4;
+        color: #d4cec4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+
+
+
+
+
+    
+    
+    #career{
+        margin-bottom: 200px;
+    }
+    
+    #career-left{
+        width: 560px;
+    
+        padding: 0 90px 0 40px;
+    }
+    
+    #career-left > div > span{
+        font-size: x-large;
+    }
+    
+    #career-expertise{
+        width: 90%;
+        height: 640px;
+        border: 2px solid #d4cec4;
+        text-align: center;
+        
+    }
+    
+    #career-right > div > span{
+        font-size: x-large;
+    }
+    
+    .skills{
+        width: 50%;
+        text-align: left;
+        padding-left: 30px;
+
+        font-size: small;
+    }
+    
+    .divider{
+        border-left: 2px solid #9178ff;
+        height: 540px;
+    }
+
+
+
+
+
+    .card-list{
+        display: flex;
+        height: 100vh;
+        padding-left: 9em;
+        overflow-x: scroll;
+    
+        padding-top: 5em;
+    }
+    
+    .card{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        flex: 0 1 250px;
+        
+        height: 400px;
+        width: 5000px;
+        min-width: 250px;
+        padding: 1.5em 1.5em 0.5em 1.5em;
+    
+        border-radius: 16px;
+        background: #0E0E0E;
+        box-shadow: -1rem 0 2rem #000;
+        transition: .2s;
+    }
+    
+    .card-author {
+        font-size: .7em;
+    }
+    
+    .author-name{
+        font-size: 1em;
+    }
+    
+    .author-name-prefix{
+        font-size: 1.7em;
+    }
+    
+    .card-header p {
+        font-size: .8rem;
+    }
+    
+    .card-header h2 {
+        font-size: 1.1em;
+    }
+    
+    .tags span {
+        font-size: .5rem;
+    }
+
+
+
+
+
+    
+    
+    .interest{
+        display: flex;
+        align-items: center;
+    }
+    
+    .interest > span{
+        display: none;
+    }
+    
+    .interests-card{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0 36px;
+        perspective: 2500px;
+        margin: 0 50px;
+    }
+
+    .examples > div{
+        width: 190px;
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 475px){
+    
+    nav ul li{
+        margin: 80px 12px 0 12px;
+    }
+    
+    nav ul li a{
+        font-size: .7em;
+    }
+    
+    .home-title{
+        font-size: 3.5em;
+    }
+    
+    #home-title-2{
+        font-size: 4.5em;
+        margin-top: 70px;
+    }
+    
+    #line-icon{
+        height: 35px;
+    }
+    
+    #mouse-icon{
+        height: 25px;
+    }
+    
+
+
+
+
+    
+    
+    #about-container{
+        width: 90%;
+        height: auto;
+        display: block;
+        padding-bottom: 20px;
+    }
+    
+    #about h1{
+        font-size: 7em;
+    }
+    
+    #about-profile-details{
+        margin-left: 30px;
+    }
+    
+    #about-profile-picture{
+        margin-top: 30px;
+        background-position: -157px 1px
+    }
+    
+    #about-profile-picture:hover{
+        background-position: -481px -20px;
+    }
+    
+    #about-name{
+        font-size: 10px;
+    }
+    
+    #about-job-title{
+        font-size: 10px;
+    }
+    
+    #about-info{
+        margin-left: 0px;
+    }
+    
+    #about-paragraph{
+        padding: 20px 20px 0 20px;
+        font-size: 10px;
+    }
+    
+    .about-contact{
+        padding-right: 40px;
+        font-size: 10px;
+    }
+
+
+
+
+
+
+    
+    #career-container{
+        align-items: start;
+        justify-content: center;
+    
+        flex-direction: column;
+    }
+    
+    #career h1{
+        font-size: 7em;
+    }
+    
+    .education-div{
+        margin: 0 10px 0 10px;
+    }
+    
+    .education-degree, .career-work{
+        font-size: 12px;
+    }
+
+    .degree-image{
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .briefcase-image{
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #career-left{
+        width: 400px;
+    
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        padding: 0 20px 0 20px;
+    }
+    
+    #career-left > div > span{
+        font-size: x-large;
+    }
+    
+    #career-right{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        width: 100%;
+    
+        margin-top: 60px;
+    }
+    
+    #career-expertise{
+        width: 80%;
+        height: 580px;
+        border: 2px solid #d4cec4;
+        text-align: center;
+    }
+    
+    #career-right > div > span{
+        font-size: x-large;
+    }
+    
+    #skills-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .skills{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .divider{
+        height: 500px;
+    }
+
+
+
+
+
+
+    
+    .card-container h1{
+        font-size: 5.5em;
+        margin: 5em 0 .5em 0;
+    }
+    
+    .card-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        height: auto;
+        padding: 0;
+    }
+    
+    .card{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        flex: 0 1 auto;
+        
+        height: 300px; 
+        width: 90%; 
+        min-width: 250px;
+        padding: 1.5em;
+    
+        border-radius: 16px;
+        background: #0E0E0E;
+        box-shadow: 10px 10px 20px #00000073;
+        transition: .2s;
+        margin-bottom: 2em; 
+    }
+    
+    .card:hover {
+        transform: translateY(-0.5rem);
+    }
+    
+    
+    .card:hover~.card {
+        transform: none;
+    }
+    
+    
+    .card:not(:first-child) {
+        margin-left: 0;
+    }
+
+    .card-header h2 {
+        font-size: 22px;
+    }
+    
+    .card-author {
+        position: relative;
+        display: grid;
+        grid-template-columns: 75px 1fr;
+        align-items: center;
+        margin: 1rem 0 0;
+    
+        font-size: .7em;
+    }
+    
+    .author-avatar img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        filter: grayscale(0%);
+        margin: 16px 10px;
+    }
+
+    .tags span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: .7rem;
+        font-size: .6rem;
+        padding: .3rem .85rem .25rem;
+    }
+
+
+    #interests, #projects{
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    #interests h1{
+        font-size: 5.5em;
+        margin: 1.5em 0 .5rem 0;
+    }
+
+    #interests-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    
+        padding-top: 7em;
+    }
+    
+    .interest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-top: 1em;
+    }
+    
+    .interest > span{
+        font-size: xx-large;
+        display: block;
+        margin-bottom: 1.5em;
+
+        margin-right: 0;
+    }
+    
+    .examples{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    
+    .interests-card{
+        position: relative;
+        width: 90%;
+        height: auto;
+        margin: 0 0 1em 0;
+        padding: 1em;
+    }
+
+    .title, .character{
+        width: 80%;
+    }
+    
+    .cover-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .wrapper{
+        transition: all 0.5s;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .interests-card:hover .wrapper{
+        transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+        box-shadow: 2px 35px 32px -8px rgba(0,0,0, 0.75);
+        -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    }
+    
+    .wrapper::before, .wrapper::after{
+        content: "";
+        opacity: 0;
+        width: 100%;
+        height: 80px;
+        transition: all 0.5s;
+        position: absolute;
+        left: 0;
+    }
+    
+    .wrapper::before{
+        top: 0;
+        height: 100%;
+        background-image: linear-gradient(
+            to top,
+            transparent 46%,
+            rgba(12, 13, 19, 0.5) 68%,
+            rgba(12, 13, 19) 97%
+        );
+    }
+    
+    .wrapper::after{
+        bottom: 0;
+        opacity: 0;
+        background-image: linear-gradient(
+            to bottom,
+            transparent 46%,
+            rgba(12, 13, 19, 0.5) 70%,
+            rgba(12, 13, 19) 80%
+      );
+    }
+    
+    .interests-card .wrapper::before, .wrapper::after{
+        opacity: 1;
+    }
+    
+    .interests-card .wrapper::after{
+        height: 120px;
+    }
+    
+    .cover-image{
+        height: 300px;
+    }
+    
+    .title{
+        width:  100%;
+        transition: transform 0.5s;
+    
+        padding-bottom: 1.8em;
+    }
+    
+    .quiet-place-title{
+        width: 188px;
+        height: auto;
+    }
+    
+    .alien-covenant-title, .silent-hill-title, .injecao-title, .jason-mraz-title{
+        width: 180px;
+        height: auto;
+    }
+    
+    .stephen-sanchez-title{
+        width: 200px;
+        height: auto;
+    }
+    
+    .onism-title{
+        padding-bottom: 2em;
+    }
+    
+    .interests-card:hover .title{
+        transform:  translate3d(0%, -40px, 100px);
+    }
+    
+    .character{
+        width: 100%;
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .dredge-character{
+        padding-bottom: 5em;
+    }
+    
+    .dont-breathe-character{
+        width: 210px;
+        height: auto;
+    }
+    
+    .interests-card:hover .character{
+        opacity: 1;
+        transform: translate3d(0%, -20%, 100px);
+    }
+    
+    .interests-card:hover .quiet-place-character{
+        opacity: 1;
+        transform: translate3d(-2%, -7%, 100px);
+    }
+    
+    .interests-card:hover .dont-breathe-character{
+        opacity: 1;
+        transform: translate3d(-2%, -10%, 100px);
+    }
+    
+    .interests-card:hover .alien-covenant-character{
+        opacity: 1;
+        transform: translate3d(0%, -10%, 100px);
+    }
+    
+    .interests-card:hover .silent-hill-character{
+        opacity: 1;
+        transform: translate3d(0%, -9%, 100px);
+    }
+    
+    .examples > div{
+        height: 300px;
+        width: 200px;
+    
+        margin: 10px;
+    }
+}

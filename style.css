@@ -256,6 +256,8 @@ nav ul li a:hover{
 
 
 
+
+
 #career{
     height: 100vh;
 }
@@ -276,7 +278,6 @@ nav ul li a:hover{
 }
 
 .education-div{
-    border: 2px solid #d4cec4;
     margin: 10px;
     padding: 12px;
 }
@@ -287,21 +288,17 @@ nav ul li a:hover{
 }
 
 .degree-image{
-    position: absolute;
     width: 220px;
     height: auto;
 
-    left: 310px;
-    top: 2630px;
+    justify-self: center;
 }
 
 .briefcase-image{
-    position: absolute;
     width: 180px;
     height: auto;
 
-    left: 325px;
-    top: 3010px;
+    justify-self: center;
 }
 
 .degree-image, .briefcase-image{
@@ -316,16 +313,18 @@ nav ul li a:hover{
 }
 
 #career-left{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    width: 900px;
 
-    padding-left: 120px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+
+    padding: 0 100px 0 120px;
 }
 
 #career-left > div{
-    width: 70%;
-    margin-bottom: 200px;
+    width: 100%;
+    
     border: 2px solid #d4cec4;
     text-align: center;
 }
@@ -338,6 +337,8 @@ nav ul li a:hover{
     display: flex;
     flex: 2;
     width: 100%;
+
+    margin-top: 70px;
 }
 
 #career-expertise{
@@ -374,6 +375,10 @@ nav ul li a:hover{
 
 
 
+
+#projects{
+    height: 100vh;
+}
 
 .card-container h1{
     color: #9178ff;
@@ -560,8 +565,6 @@ nav ul li a:hover{
     padding-top: 7em;
 }
 
-
-
 .interest{
     display: flex;
     align-items: center;
@@ -665,14 +668,18 @@ nav ul li a:hover{
     height: auto;
 }
 
-.alien-covenant-title{
+.alien-covenant-title, .silent-hill-title, .injecao-title, .jason-mraz-title{
     width: 180px;
     height: auto;
 }
 
-.silent-hill-title{
-    width: 180px;
+.stephen-sanchez-title{
+    width: 200px;
     height: auto;
+}
+
+.onism-title{
+    padding-bottom: 2em;
 }
 
 .interests-card:hover .title{

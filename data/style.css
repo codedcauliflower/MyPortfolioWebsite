@@ -169,7 +169,7 @@ nav ul li a:hover{
 }
 
 #about-profile-picture{
-    background: url("/images/IMG_1081-2.jpg");
+    background: url("/data/images/IMG_1081-2.jpg");
     background-size: 500px;
     background-position: -110px 1px;
 
@@ -184,7 +184,7 @@ nav ul li a:hover{
 }
 
 #about-profile-picture:hover{
-    background: url("/images/IMG_1081-2.jpg");
+    background: url("/data/images/IMG_1081-2.jpg");
     background-size: 1400px;
     background-position: -523px -10px;
 

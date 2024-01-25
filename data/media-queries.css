@@ -634,7 +634,7 @@
 @media (max-width: 475px){
     
     nav ul li{
-        margin: 80px 8px 0 8px;
+        margin: 80px 10px 0 10px;
     }
     
     nav ul li a{
@@ -672,7 +672,8 @@
     }
     
     #about h1{
-        font-size: 7em;
+        margin: 3em 0 .5em 0;
+        font-size: 6em;
     }
     
     #about-profile-details{
@@ -725,6 +726,7 @@
     
     #career h1{
         font-size: 6em;
+        margin: 4em 0 .5em 0;
     }
     
     .education-div{
@@ -805,7 +807,7 @@
     
     .card-container h1{
         font-size: 5em;
-        margin: 7em 0 .5em 0;
+        margin: 10em 0 .9em 0;
     }
     
     .card-list{
@@ -880,14 +882,24 @@
     }
 
 
+
+
+
+
+
     #interests, #projects{
         height: auto;
         min-height: 100vh;
     }
+
+
+
+
+
     
     #interests h1{
         font-size: 4.9em;
-        margin: 1.5em 0 .5rem 0;
+        margin: 3em 0 .2rem 0;
     }
 
     #interests-container{

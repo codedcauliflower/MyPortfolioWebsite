@@ -1,3 +1,77 @@
+@media screen and (max-width: 1920px){
+
+    #about-profile-details{
+        margin-left: 60px;
+    }
+
+    #about-profile-picture{
+        background-position: -130px 1px;
+
+        height: 200px;
+        width: 200px;
+    }
+    
+    #about-profile-picture:hover{
+        background-position: -550px -10px;
+    }
+    
+    #about-job-title{
+        font-size: .75em;
+    }
+
+    #about-name{
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 1.2em;
+    }
+    
+    #about-job-title{
+        font-size: .8em;
+        margin: 0;
+    }
+    
+    #about-info{
+        flex-grow: 1;
+        margin-left: 60px;
+    }
+    
+    #about-paragraph{
+        padding-right: 60px;
+        font-size: .8em;
+    }
+    
+    .about-contact{
+        padding-right: 60px;
+        text-align: right;
+        font-size: .68em;
+        margin: 0;
+    }
+
+
+
+
+
+    
+    
+    
+    .skills{
+        width: 50%;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+
+
+
+
+
+    .card-container h1{
+        margin: 2em 0 .1em 0;
+    }
+}
+
+
 @media (max-width: 1536px) {
 
     #logo-container{
@@ -560,11 +634,11 @@
 @media (max-width: 475px){
     
     nav ul li{
-        margin: 80px 12px 0 12px;
+        margin: 80px 8px 0 8px;
     }
     
     nav ul li a{
-        font-size: .7em;
+        font-size: .6em;
     }
     
     .home-title{
@@ -632,7 +706,7 @@
     }
     
     .about-contact{
-        padding-right: 40px;
+        padding-right: 20px;
         font-size: 10px;
     }
 
@@ -643,14 +717,14 @@
 
     
     #career-container{
-        align-items: start;
+        align-items: center;
         justify-content: center;
     
         flex-direction: column;
     }
     
     #career h1{
-        font-size: 7em;
+        font-size: 6em;
     }
     
     .education-div{
@@ -674,12 +748,12 @@
     }
     
     #career-left{
-        width: 400px;
+        width: 350px;
     
         display: grid;
         grid-template-columns: 1fr;
     
-        padding: 0 20px 0 20px;
+        padding: 0 15px 0 15px;
     }
     
     #career-left > div > span{
@@ -716,10 +790,11 @@
     .skills{
         width: 50%;
         text-align: center;
+        padding: 0;
     }
     
     .divider{
-        height: 500px;
+        height: 480px;
     }
 
 
@@ -729,8 +804,8 @@
 
     
     .card-container h1{
-        font-size: 5.5em;
-        margin: 5em 0 .5em 0;
+        font-size: 5em;
+        margin: 7em 0 .5em 0;
     }
     
     .card-list{
@@ -751,7 +826,7 @@
         height: 300px; 
         width: 90%; 
         min-width: 250px;
-        padding: 1.5em;
+        padding: .9em 2em 2em 2em;
     
         border-radius: 16px;
         background: #0E0E0E;
@@ -775,7 +850,7 @@
     }
 
     .card-header h2 {
-        font-size: 22px;
+        font-size: 18px;
     }
     
     .card-author {
@@ -785,7 +860,7 @@
         align-items: center;
         margin: 1rem 0 0;
     
-        font-size: .7em;
+        font-size: .66em;
     }
     
     .author-avatar img {
@@ -800,7 +875,6 @@
     .tags span {
         font-style: normal;
         font-weight: 500;
-        font-size: .7rem;
         font-size: .6rem;
         padding: .3rem .85rem .25rem;
     }
@@ -812,7 +886,7 @@
     }
     
     #interests h1{
-        font-size: 5.5em;
+        font-size: 4.9em;
         margin: 1.5em 0 .5rem 0;
     }
 

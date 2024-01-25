@@ -152,7 +152,6 @@ nav ul li a:hover{
     color: #9178ff;
     font-size: 10em;
     text-align: center;
-    font-family: 'Prompt';
     margin: 0;
 }
 
@@ -206,12 +205,12 @@ nav ul li a:hover{
 
 #about-info{
     flex-grow: 1;
-    margin-left: 150px;
+    margin-left: 80px;
 }
 
 #about-paragraph{
     text-align: justify;
-    padding-right: 100px;
+    padding-right: 80px;
     font-size: 1em;
     color: #d4cec4;
 }
@@ -219,7 +218,7 @@ nav ul li a:hover{
 .about-contact{
     color: #9178ff;
 
-    padding-right: 100px;
+    padding-right: 80px;
     text-align: right;
     font-size: 1em;
     margin: 0;
@@ -229,29 +228,7 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1920px){
 
-    #about-profile-picture{
-        height: 200px;
-        width: 200px;
-    }
-
-    #about-name{
-        font-size: 1.4em;
-    }
-    
-    #about-job-title{
-        font-size: .8em;
-    }
-    
-    #about-paragraph{
-        font-size: .7em;
-    }
-
-    .about-contact{
-        font-size: .68em;
-    }
-}
 
 
 
